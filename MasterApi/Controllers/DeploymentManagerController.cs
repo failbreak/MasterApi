@@ -20,7 +20,7 @@ namespace MasterApi.Controllers
             try
             {
                 Website website = new(name, ipAddr, port);
-                HttpStatusCode apiResponse = TaskCallWebAPIAsync(server, website.Name).Result;
+                
                 
                return HttpStatusCode.OK;
             }

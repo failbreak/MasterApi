@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterApi", "MasterApi\MasterApi.csproj", "{6EA0ED7F-28A7-42C1-BBE7-D073BEEB3713}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sop.MasterApi.WebApi", "MasterApi\Sop.MasterApi.WebApi.csproj", "{6EA0ED7F-28A7-42C1-BBE7-D073BEEB3713}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sop.MasterApi.Service", "Sop.MasterApi.Service\Sop.MasterApi.Service.csproj", "{DCA4A108-D18C-4EF3-93E5-53BF2DFAB2EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sop.MasterApi.Domain", "Sop.MasterApi.Domain\Sop.MasterApi.Domain.csproj", "{2EBD379B-6998-48DC-AD42-02EC7A8B6E96}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{6EA0ED7F-28A7-42C1-BBE7-D073BEEB3713}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EA0ED7F-28A7-42C1-BBE7-D073BEEB3713}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EA0ED7F-28A7-42C1-BBE7-D073BEEB3713}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCA4A108-D18C-4EF3-93E5-53BF2DFAB2EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCA4A108-D18C-4EF3-93E5-53BF2DFAB2EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCA4A108-D18C-4EF3-93E5-53BF2DFAB2EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCA4A108-D18C-4EF3-93E5-53BF2DFAB2EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EBD379B-6998-48DC-AD42-02EC7A8B6E96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EBD379B-6998-48DC-AD42-02EC7A8B6E96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EBD379B-6998-48DC-AD42-02EC7A8B6E96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EBD379B-6998-48DC-AD42-02EC7A8B6E96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
